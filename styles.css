@@ -1,0 +1,75 @@
+
+*{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.jumbotron{
+	background-color: grey;
+	margin-bottom: 0px;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	color: white;
+
+}
+.member-container{
+	margin: 0px;
+	width: 100%;
+
+}
+.navbar-custom{
+	background-color: #a47c48;
+	color: #ead61c;
+}
+
+
+.navbar{
+	border: 1px black solid;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.navbar li{
+	float: none;
+	display: inline-block;
+}
+.navbar-brand{
+	color: #845422;
+}
+.navbar-brand a:hover{
+	color: white;
+}
+.navbar li a{
+	color: #d7c797;
+}
+.navbar li a:hover{
+	color: black;
+	background-color: #845422;
+}
+
+.col-sm-4{
+	background-color: 	#d7c797;
+	padding: 20px;
+}
+.row{
+
+	width: 100%;
+	margin: 0;
+}
+.row h3{
+	text-align: center;
+}
+.row p{
+	text-align: center;
+}
+.main-feed{
+	margin: 20px;
+
+}
+.content{
+	text-align: left;
+}
+.feed-container{
+	background-color: 	#d7c797;
+}
+body{
+	background-color: #d7c797;
+}
