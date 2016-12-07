@@ -1,0 +1,86 @@
+.navbar{
+   text-align: center;
+}
+.navbar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    padding-top: 12px;
+
+   
+}
+.navbar ul li{
+
+  display: inline-block;
+
+
+}
+.navbar ul li a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: #484944;
+
+}
+
+.container{
+   text-align: center;
+   max-width: 80%;
+
+}
+.module{
+     margin-bottom: 0;
+}
+#section1{
+    height: 500px;
+    background: url('img/mooning.png') repeat 0 0;
+
+}
+#section2{
+    height: 600px;
+     background: url('img/mooning.png') repeat 0 0;
+}
+#section3{
+    height: 900px;
+    background: url('img/mooning.png') repeat 0 0;
+}
+#section4{
+    height: 500px;
+    background: url('img/mooning.png') repeat 0 0;
+}
+.content{
+  overflow: hidden;
+}
+.content h1{
+    color: #484944;
+    font-family: 'Lobster';
+}
+.content p{
+    font-family: 'Cabin';
+    color: #484944;
+    font-size: large;
+
+}
+
+.thumbnail{
+    margin-bottom: 0;
+}
+.para{
+    width: 60%;
+     margin-left: 20%;
+}
+footer{
+    height: 100px;
+    text-align: center;
+}
+
+body{
+    background: url('img/tree_bark.png') repeat 0 0;
+    padding-top: 100px;
+}
+
