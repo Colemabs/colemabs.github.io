@@ -45,17 +45,18 @@ body, html {
   color: #000;
 }
 
-.caption span.borderbutton {
+.caption a.borderbutton {
   background-color: #111;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  text-decoration: none;
 }
 
 .textslide{
   color: #d3d3d3;
-  background-color:   #6D5A4C;
+  background-color: #6D5A4C;
   text-align:center;
   padding:50px 80px;
   text-align: justify;
