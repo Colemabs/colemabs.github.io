@@ -1,0 +1,78 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.btn{
+	background-color: #ee6e73 !important;
+}
+.deleteCartItem{
+	color: darkgray !important;
+}
+
+.btnCart{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.collection{
+	text-align: center !important;
+}
+.cartItemName{
+	display: inline-block;
+	float: left;
+}
+
+.cartItemPrice{
+	display: inline-block;
+
+}
+.list-item{
+	padding: 15px !important;
+}
+.list-item-title, .list-item-description, .list-item-price, .list-item-amount{
+	text-align: center;
+}
+.back{
+
+}
+.hidden{
+	display: none;
+}
+
+ /* label color */
+   .input-field label {
+     color: #ee6e73 !important;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #ee6e73 !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #ee6e73 !important;
+     box-shadow: 0 1px 0 0 white !important;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+        
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+	color:#ee6e73 !important;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: #ee6e73; /* no need for !important :) */
+}
+
+
+.checkbox-pink[type="checkbox"]:checked + label:before{
+    border: 2px solid transparent;
+    border-bottom: 2px solid #ee6e73;
+    ;
+    border-right: 2px solid #ee6e73;
+    ;
+    background: transparent;
+}
+
+.indicators .indicator-item.active {
+    background-color: #ee6e73 !important;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col s12" id="tabs-area">
+				<ul class="tabs"></ul>
+				<div class="col s6">
+					<div class="input-field col s12">
+						<input id="item_name" type="text" >
+						<label for="item_name">Item Name</label>
+					</div>
+					<div class="input-field col s12">
+						<input id="description" type="text" >
+						<label for="description">Description</label>
+					</div>
+					<div class="input-field col s12">
+						<input id="full_price" type="text" >
+						<label for="full_price">Full Price</label>
+					</div>
+					<div class="input-field col s12">
+						<select id="options">
+							<option value="" disabled selected>Choose your option</option>
+							<option value="Dozen">Dozen</option>
+							<option value="Half Dozen">Half Dozen</option>
+							<option value="Single">Single</option>
+						</select>
+						<label>Options</label>
+					</div>
+					<div class="input-field col s6" style="padding-left: 0px;margin-bottom:28px;">
+						
+						<input type="checkbox" id="special" class="checkbox-pink"/>
+						<label for="special">Monthly Special?</label>
+						
+					</div>
+					<div class="input-field col s6 urlInput hidden">
+						<input id="img_url" type="text" >
+						<label for="img_url">Image URL</label>
+					</div>
+
+					<div class="col s7">
+						<div class="btn btnAdd">Add Item</div>
+					</div>
+					
+				</div>
+				<div class="col s6">
+					<table id="tblItems" class="bordered">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+								<th>Featured?</th>
+								<th>Amount</th>
+								<th>Unit Price</th>
+							</tr>
+						</thead>
+
+						<tbody>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col s6">
+			<div class="card">
+				<h5>Here's a list of images that look good on the site:</h5>
+				<p>https://static.pexels.com/photos/144282/pexels-photo-144282.jpeg <br>
+				   https://static.pexels.com/photos/27468/pexels-photo-27468.jpg <br>
+				   https://static.pexels.com/photos/122737/pexels-photo-122737.jpeg <br>
+				   https://static.pexels.com/photos/37349/rose-beautiful-beauty-bloom.jpg <br>
+				</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/site.js"></script>
+</body>
+</html>
